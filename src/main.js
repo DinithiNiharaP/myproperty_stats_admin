@@ -1,22 +1,26 @@
 import { createApp } from "vue";
 import "./style.css";
 import App from "./App.vue";
-import Dashboard from "./dashboard.vue";
-import Overview from "./pages/overview.vue";
-import Users from "./pages/users.vue";
+import Dashboard from "./pages/dashboard.vue";
+import Login from "./pages/login.vue";
+import Overview from "./pages/dashboard/overview.vue";
+import Users from "./pages/dashboard/users.vue";
+import { createRouter, createWebHistory } from "vue-router";
+import { createPinia } from "pinia";
 
-/* const routes = [
-  { path: "/", component: App },
-  { path: "/dashboard", component: Dashboard },
-]; */
+const routes = [
+  { path: "/", name: "Login", component: Login },
+  { path: "/dashboard", name: "Dashboard", component: Dashboard },
+  { path: "/dashboard/overview", name: "Overview", component: Overview },
+  { path: "/dashboard/users", name: "Users", component: Users },
+];
 
-/* const router = VueRouter.createRouter({
-  history: VueRouter.createWebHashHistory(),
+const router = createRouter({
+  history: createWebHistory(),
   routes,
-}); */
+});
 
-createApp(App).mount("#app");
-// createApp(Dashboard).mount("#app");
-// createApp(Overview).mount("#app");
-// createApp(Users).mount("#app");
+const pinia = createPinia();
+
+createApp(App).use(router).use(pinia).mount("#app");
 

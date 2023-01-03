@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="receipt-2" transform="translate(-492 -380)">
+    <path id="Vector" d="M11.333,3.36V9.973A5.467,5.467,0,0,1,11,12.22a.051.051,0,0,1-.013.027.7.7,0,0,1-.567.28A1.868,1.868,0,0,1,9.18,11.8a1.179,1.179,0,0,0-1.867.1l-.673.893a1.22,1.22,0,0,1-.973.54,1.22,1.22,0,0,1-.973-.54l-.68-.9a1.173,1.173,0,0,0-1.853-.1l-.007.007c-.753.807-1.42.927-1.807.447a.051.051,0,0,1-.013-.027A5.467,5.467,0,0,1,0,9.973V3.36A5.467,5.467,0,0,1,.333,1.113c0-.007,0-.013.013-.02C.727.607,1.4.727,2.153,1.533l.007.007a1.173,1.173,0,0,0,1.853-.1l.68-.9A1.22,1.22,0,0,1,5.667,0,1.22,1.22,0,0,1,6.64.54l.673.893a1.179,1.179,0,0,0,1.867.1A1.868,1.868,0,0,1,10.42.807a.7.7,0,0,1,.567.287c.013.007.013.013.013.02A5.467,5.467,0,0,1,11.333,3.36Z" transform="translate(494 381.333)" fill="none" stroke="#645cfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Vector-2" data-name="Vector" d="M0,0H5.333" transform="translate(497.333 386.833)" fill="none" stroke="#645cfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H4" transform="translate(497.333 389.167)" fill="none" stroke="#645cfc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Vector-4" data-name="Vector" d="M0,0H16V16H0Z" transform="translate(492 380)" fill="none" opacity="0"/>
+  </g>
+</svg>

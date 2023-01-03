@@ -1,6 +1,6 @@
 <template>
   <div class="container content-center grid h-screen place-items-center">
-    <h1 class="text-center mb-3">Users</h1>
+    <h1 class="text-center mb-3">Welcome back!</h1>
     <p class="mb-8">
       Log in below to see how the My Property Stats is currently performing.
     </p>
@@ -8,16 +8,16 @@
       <label class="label block text-gray-700 text-sm font-bold">
         <span class="label-text">Email address</span>
       </label>
-      <input type="text" class="input bg-primary/10 mb-4" />
+      <input type="text" class="input bg-accent mb-4" />
     </div>
     <div class="form-control">
       <label class="label block text-gray-700 text-sm font-bold">
-        <span class="label-text">Subscribed Plan</span>
+        <span class="label-text">Password</span>
       </label>
-      <input type="text" class="input bg-primary/10 mb-8" />
+      <input type="password" class="input bg-accent mb-8" />
     </div>
     <div class="mb-4">
-      <button class="btn btn-wide text-white bg-primary/90" @click="onLogIn">
+      <button class="btn btn-wide text-white bg-primary normal-case" @click="onLogIn">
         Log in
       </button>
     </div>
@@ -27,7 +27,7 @@
 export default {
   methods: {
     onLogIn() {
-      this.$router.push("/dashboard");
+      this.$router.push({ name: "Dashboard" });
     },
   },
 };
